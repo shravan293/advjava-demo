@@ -16,8 +16,6 @@ public class RegServlet extends GenericServlet{
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		
-        /***************************AFTER COMMIT****************************/
-
 		PrintWriter pw=res.getWriter();
 		int id=Integer.parseInt(req.getParameter("regId"));
 		String name=req.getParameter("regName");
